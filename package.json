@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "node ace serve --watch",
     "build": "node ace build --production",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "patch-package"
   },
   "devDependencies": {
     "@adonisjs/assembler": "^5.9.5",
@@ -25,6 +26,7 @@
     "@adonisjs/repl": "^3.1.11",
     "luxon": "^3.2.1",
     "mysql2": "^3.1.2",
+    "patch-package": "^6.5.1",
     "proxy-addr": "^2.0.7",
     "reflect-metadata": "^0.1.13",
     "source-map-support": "^0.5.21",
