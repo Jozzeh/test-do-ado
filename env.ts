@@ -27,4 +27,5 @@ export default Env.rules({
   PG_PASSWORD: Env.schema.string.optional(),
   PG_DB_NAME: Env.schema.string(),
   CUSTOM_ENV: Env.schema.string(),
+  CA_CERT: Env.schema.string(),
 });
